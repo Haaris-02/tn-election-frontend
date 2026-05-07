@@ -14,7 +14,7 @@ export default function App() {
 
   useEffect(() => {
     const fetchLiveData = () => {
-      axios.get('https://tn-election-live-tracker-2026.onrender.com')
+      axios.get('https://tn-election-live-tracker-2026.onrender.com/api/constituencies/')
         .then(response => {
           setConstituencies(response.data);
           setRefreshCount(prev => prev + 1); 
