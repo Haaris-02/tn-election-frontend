@@ -265,7 +265,7 @@ export default function App() {
                ))}
                {partySummary.length === 0 && (
                    <p className="text-sm text-slate-500 col-span-2 italic text-center py-2">
-                     Innum entha thoguthiyilum result arivikkapadavillai...
+                     Please wait a moment. The free-tier server is waking up (takes about 45-60 seconds)...
                    </p>
                )}
             </div>
